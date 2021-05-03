@@ -1,0 +1,17 @@
+.github{
+    display: inline-flex;
+    align-items: center;
+}
+
+.video_container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
